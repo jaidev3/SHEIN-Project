@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = 
+    "https://pbs.twimg.com/profile_images/585774307864780802/hSIi81s2.png" 
+            type = "image/x-icon">
+    
+    <title>https://us.shein.com/address</title>
+</head>
+<style>
+#main {
+    display: flex;
+    /* height: 600px; */
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+
+}
+
+#left {
+  width: 60%;
+    margin: 5px;
+}
+#right {
+    width: 40%;
+    margin: 5px;
+    
+}
+#red {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+
+#firstname , #state {
+    width: 59%;
+    height: 30px;
+}
+#lastname , #city {
+    width: 36%;
+    height: 30px;
+
+}
+#Mobile , #Address , #Address2 , #zip {
+    width: 98%;
+    height: 30px;
+}
+ #butone {
+   margin-left: 150px;
+   width: 120px;
+   height: 35px;
+   background-color: black;
+   color: white;
+   border: none;
+ }
+ #butone:hover ,#placeorder:hover {
+     background-color: rgba(0, 0, 0, 0.733);
+ }
+ #placeorder {
+     width: 98%;
+     height: 35px;
+     background-color: black;
+     color: white;
+     border: none;
+ }
+ p {
+     font-size: 13px;
+ }
+ #left > p {
+     color: rgba(0, 0, 0, 0.616);
+ }
+ #pone {
+    color: rgba(0, 0, 0, 0.616);
+ }
+strong {
+    font-size: 13px;
+}
+
+#jaitopgreen{
+    color: #83B293;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    word-spacing: 6px;
+  
+}
+#jaitop1{
+    font-family: sans-serif;
+    margin-left: 60px;
+    color: #222222;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 3px;
+    
+}
+
+#saveone{
+    color: red;
+}
+</style>
+<body>
+    <div >
+        <hr>
+            <h1 id="jaitop1">SHEIN / <span id="jaitopgreen">Secure Checkout</span> </h1>
+        <hr>   
+       </div>
+
+    <div id="main">
+
+<div id="left">
+<h3>Shipping Address </h3>
+
+<hr>
+
+<p>*Country/Region: United State</p>
+
+<form id="details1" onsubmit="adddetails(event)" action="" >
+
+    <input type="text" id="firstname" placeholder="*First Name"> <input type="text" name="lastname" id="lastname" placeholder="*Last Name">
+    <br>
+    <br>
+    <input type="text" name="Mobile" id="Mobile" placeholder="*Mobile Number">
+
+    <br>
+    <br>
+    <input type="text" name="Address" id="Address" placeholder="*Address Line 1">
+    <br><br>
+    <input type="text" name="Address2" id="Address2" placeholder="*Building/House Number">
+    <br>
+    <br>
+    <input type="text" name="State" id="state" placeholder="*State"> <input type="text" name="city" id="city" placeholder="*City">
+    <br><br>
+    <input type="number" name="Zip" id="zip" placeholder="*Zip Code">
+    <br>
+    <br>
+  <p id="saveone"></p>
+    <button id="butone">SAVE</button>
+    <h3 id="htwo"></h3>
+    <!-- id="butone" -->
+
+    <hr>
+
+    <h3>Choose Your Shipping Options</h3>
+  
+    <input type="radio" id="radi" name="standerd" value="">
+    <label for=""><strong>STANDARD SHIPPING</strong> <br>
+     
+     <hr>
+     
+     
+     <h3>Payment Method</h3>
+     <hr>
+     <input type="radio" id="radi1" name="standerd1" value="">
+     <label for=""><strong>Mobile OTP</strong> <br>
+        
+
+<hr>
+    </label>
+
+
+
+</div>
+<hr id="hrone">
+<div id="right">
+
+    <h2>Order Summary</h2>
+<hr>
+ <p>Retail Price: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; US$43.99 </p>
+ <p>Subtotal: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; US$24.59</p>
+ <p>Shipping fee: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; US$3.99</p>
+ <p id="total">Grand Total: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong id="usd"></strong> </p>
+
+ <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  Reward <a href="#gfsg" id="red">24</a> SHEIN POINT </p>
+
+
+<hr>
+
+<h3>Coupon Code </h3>
+
+<input type="text"> <button>APPLY</button>
+
+<p id="pone">check out <a href="#fsa">My Coupons</a></p>
+<p>Apply code shev10 to get 10% off for your first order.</p>
+
+<h3>SHEIN Points </h3>
+<input type="text"> <button>APPLY</button>
+<p id="pone">Max Available: 0</p>
+
+
+<button id="placeorder">PLACE ORDER</button>
+
+</form>
+
+</div>
+
+    </div>
+
+
+
+
+    
+
+
+
+</body>
+</html>
+
+
+<script>
+
+ // let finalprice = JSON.parse(localStorage.getItem("price"));
+
+// // let parent = document.getElementById("usd");
+// // function priceofproduct() {
+
+
+// // finalprice.forEach(function (usprice) {
+// //  // console.log(product.name)
+
+// //   var p = document.getElementById("total")
+
+// //   var price1 = document.getElementById("usd")
+// // price.textContent = usprice.productpriceof.value
+
+// //   p.append(price1)
+  
+
+// //   parent.append(p)
+// // })
+// // }
+
+// // priceofproduct();
+
+   
+
+
+
+var btn = document.getElementById("placeorder");
+
+
+function adddetails(e) {
+        e.preventDefault();
+
+
+        var details = document.getElementById("details1");
+         
+         let firstname = details.firstname.value;
+        
+        let secondname = details.lastname.value;
+
+        let mobilenumber = details.Mobile.value;
+
+        let firstadd = details.Address.value;
+
+        let secondadd = details.Address2.value;
+
+        let state = details.state.value;
+
+        let city = details.city.value;
+
+        let zip = details.zip.value;
+
+        
+      if (firstname.length == 0 || secondname.length == 0 || mobilenumber.length == 0 || firstadd.length == 0 
+     || secondadd.length == 0 || state.length == 0 || city.length == 0 || zip.length == 0) {
+          document.getElementById("saveone").textContent = "Please Fill complete the form"
+          n.push("Surya")
+      }
+      else {
+        document.getElementById("saveone").textContent = "Hello " + firstname + " Your data is saved"
+     
+  
+        window.location.href = "Payment.html"
+    
+
+
+      
+      }
+
+
+
+
+
+    
+ if (localStorage.getItem("details") === null) {
+    localStorage.setItem("details", JSON.stringify([]));
+ }
+
+    let detail ={
+        firstname,
+        secondname,
+        mobilenumber,
+        firstadd,
+        secondadd,
+        state,
+        city,
+        zip,
+   };
+
+    let arr = JSON.parse(localStorage.getItem("details"));
+
+    arr.push(detail);
+
+    localStorage.setItem("details", JSON.stringify(arr));
+  
+      
+    
+
+    var name = document.getElementById("firstname").value;
+        sessionStorage.setItem("name", JSON.stringify(name));
+
+    }
+   
+
+  
+
+   
+
+
+</script>
