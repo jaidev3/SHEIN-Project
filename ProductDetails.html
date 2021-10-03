@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = 
+    "https://pbs.twimg.com/profile_images/585774307864780802/hSIi81s2.png" 
+            type = "image/x-icon">
+    
+    <title>SHEIN Tree Style</title>
+    <style>
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+        #ranproduct {
+            display: flex;
+            margin: auto;
+            width: 85%;
+            height: 700px;
+        }
+
+
+        #ranprodimage {
+            width: 50%;
+            padding: 0px 20px 10px 10px;
+        }
+
+        #ranprodimage img {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+        }
+
+        #ransmallimg {
+            width: 10%;
+            display: flex;
+            flex-direction: row-reverse;   
+        }
+        #ransmallimg img:hover{
+            border: 1px solid black;
+        } 
+
+        #ransmallimg img {
+            width: 70%;
+            height: 90px;
+            padding: 10px;
+        }
+
+        #ranproductdetail {
+            width: 45%;
+        }
+
+        #ranprodtop {
+            height: 25%;
+            padding: 1%;
+            margin: 2%;
+        }
+
+        #ranprodmid {
+            display: flex;
+            height: 25%;
+            padding: 2%;
+            flex-direction: column;
+        }
+
+        #ranprodmid h3 {
+            padding: 3px;
+        }
+
+        #ranprodbot {
+            margin-top: 40px;
+            height: 28%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: rgb(194, 191, 191);
+            
+        }
+
+        #ranprodbot h5 {
+            margin: auto;
+        }
+
+        #rancloth {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            gap: 5%;
+        }
+
+        #rancloth button {
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        #ranbtn button {
+            width: 400px;
+            height: 60px;
+            background-color: black;
+            color: white;
+            padding: 0px;
+            margin: 20px 10px 10px 40px;
+        }
+
+        #ranprodtop h3 {
+            font-family: Arial Black;
+            font-weight: 700;
+            color: red;
+            font-size: 25px;
+        }
+
+        /* #ransale {
+            background-color: #FFD665;
+            color: black;
+            display: flex;
+            height: 40px;
+            vertical-align: text-bottom;
+            margin: 5px;
+        } */
+
+
+
+           
+#vishnu_top{            
+            width:100%;
+            /* border:1px solid black; */
+            height:50px;
+            background-color: black;            
+            display:flex;
+            font-weight: 700;
+            margin-top: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+#vishnu_codeText{
+    margin:10px;         
+        }
+#vishnu_codeOfTheDay{
+    margin:10px; 
+}
+#vishnu_timer{
+            padding: 10px;
+            margin-right: 150px;
+        }
+#vishnu_codeOfTheDay{
+            background-color: white;
+            padding: 3px 3px 3px 15px;    
+            width:21%;       
+        }
+#vishnu_codeText{
+            width:65%;
+            margin-left:10%;
+            padding:10px;
+            color: white;
+        }
+#vishnu_timer{
+            margin-left:20%;            
+            display:flex;
+            padding-bottom:0px;
+            
+        }
+#vishnu_timer>div{
+            /* border: 1px solid red; */            
+            width:20%;     
+            padding:5px;       
+        }
+#vishnu_secondBar{
+            width:100%;
+            /* border:1px solid red; */
+            height:100%;
+            display:flex;
+            background-color: #F7F8FA; 
+            align-content: center;
+            height: 80px;
+        }
+
+#vishnu_one{
+            width:45%;
+            display:flex;
+            font-family: Muli, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            
+        }
+#vishnu_two{
+           width:20%;
+           text-align:center;
+           font-weight: 600;
+           font-size: 40px;
+           font-family: Muli, Arial, Helvetica, sans-serif;
+           padding-top: 15px;
+           letter-spacing: 4px;
+        }
+#vishnu_three{
+            width:20%;
+            
+        }
+#vishnu_four{
+            width:20%;
+            /* background-color: pink; */
+            text-align:left;
+            margin-top:5px;
+            display:flex;
+        }
+        /* #vishnu_one>a:nth-child(2),#vishnu_one>a:nth-child(3),#vishnu_one>a:nth-child(4),#vishnu_one>a:nth-child(5),#vishnu_one>a:nth-child(6),#vishnu_one>a:nth-child(7){
+            border:1px solid green;
+            width:20%;
+            padding-top:3%;
+            text-align: center;
+            
+        } */
+#vishnu_scroll{            
+            display: flex;                        
+            width: 100%;
+            overflow:hidden;
+            padding:10px;
+            padding-left: 0;
+            /* white-space: nowrap; */
+        }
+#vishnu_scroll>a{            
+            /* border:1px solid green;             */
+            padding:3% 2.5%;            
+            text-align: center;   
+            text-decoration: none;        
+            color:grey;
+        }  
+#vishnu_scroll>a:hover{
+            color:black;
+        }    
+        
+#vishnu_leftButton,#vishnu_rightButton{
+            /* border:1px solid pink;             */
+            width: 3%;
+            padding-top:5%;
+            text-align: center;        
+            
+        }
+#vishnu_three{
+            font-family:Muli, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            padding: 15px 15px 1px 15px;
+            
+        }
+
+.campaign{
+            text-align: center;
+            margin-top: 100px;
+
+        }
+
+  #vishnu_thirdBar{
+            width:100%;
+            height:100%;
+            /* background-color: grey; */
+            height:50px;    /*<< make this 100% once done*/            
+            display:flex;       
+            /* border: 1px solid red;   */
+        }
+.vishnuText{
+            /* border: 1px solid red; */
+            margin: 15px 12px;
+            font-family: Muli, Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+.vishnuText:hover{
+           /* color: blue; */
+           text-decoration-line: underline;           
+           text-underline-offset: 20px;   /*<<<   Adjust this value as per the bar width to align properly*/
+        }
+
+#vishnu_thirdBar{
+
+color: #3D3D3D;
+
+
+}  
+.vishnuText{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #3D3D3D;
+    font-weight: 500;
+}      
+#vishnu_thirdBar1{
+            /* border: 1px solid red; */
+            width:75%;
+            display:flex;           
+        }
+#vishnu_thirdBar2{
+            /* border: 1px solid green;     */
+            width:20%;        
+            display:flex;   
+            justify-content: right;      
+            padding: 8px;
+            padding-right: 0;
+            margin-right: 0;
+            margin-left: 60px;
+        }
+#vishnu_slider{
+            width:5%;
+            /* border:1px solid tomato; */
+            display:flex;
+        }
+#vishnu_slider>div{
+            /* border:1px solid tomato; */
+            width:50%;
+            padding-top: 30%;
+            padding-left: 20%;
+        }
+#vishnu_moveLeft,#vishnu_moveRight{
+            font-size:15px;
+            font-weight:bolder;     
+}
+
+#vishnu_searchBtn{
+    background-color: black;
+    color: cornsilk;
+}
+
+/*
+#vishnu_top{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}   
+#vishnu_secondBar{
+    position: fixed;
+    top: 50px;
+ 
+}
+
+#vishnu_thirdBar{
+    position: fixed;
+    top: 120px;
+    background-color: white;
+    
+
+}
+*/
+
+#jaitopmargin{
+    width: 100%;
+    margin: auto;
+}
+
+#footer{
+    background-color: #fafafa;
+    width: 100%;
+    height: 450px;
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#footerleft{
+    display: flex;
+    flex-direction: column;;
+    width: 40%; 
+}
+
+
+#footerlefttop{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: 30px;
+    width: 80%;
+  
+}
+
+#footerleftbottom{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:30% ;
+    align-self: flex-end; 
+ 
+   padding-top: 10px;
+}
+
+.text{
+    padding-top: 20px;
+    min-height: 250px;
+    width: 176px; 
+     
+}
+
+.footerfont{
+    padding: 5px;
+    margin: 0%;
+    margin-right: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #696969;
+}
+.footerheading{
+    font-weight: bold;
+    color: black;
+}
+
+.footerfont:hover{
+    color: black;
+}
+
+/*//////////////////////right box///////////////////*/
+
+#footerright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#footerright>div{
+    height: 28%;
+   
+}
+
+
+#footerright>div:nth-child(1){
+display: flex;
+margin-top: 50px;
+
+}
+#footerrighttop>div:nth-child(1){
+width: 250px;
+
+}
+
+#footerrightbutton{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 33px;
+    margin-left: 0;
+    
+}
+#footerrightinput{
+height: 28px;
+width: 400px;
+margin-right: 0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+#weaccept{
+
+    height: 90px;
+    width: 80%;
+}
+
+#socialmedia{
+
+    height: 60px;
+    width: 200px;
+}
+
+#appstore{
+    width: 100px;
+    height: 50px;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id='vishnu_top'>
+        <div id='vishnu_codeText'></div>
+        <div id='vishnu_codeOfTheDay'></div>
+        <div id='vishnu_timer'></div>
+    </div>    
+
+    <div id="vishnu_secondBar">
+        <div id="vishnu_one">
+           <!--<div id="vishnu_leftButton" onclick="vishnu_left()"></div><</div> --->  
+            <div id='vishnu_scroll'>
+                <a  class='vishnu_1' href='http://127.0.0.1:5500/vishnu_secondBar.html'>WOMEN</a>
+                <a  class='vishnu_1'>CURVE+PLUS</a>
+                <a  class='vishnu_1'>KIDS</a>
+                <a  class='vishnu_1'>MEN</a>
+                <a  class='vishnu_1'>BEAUTY</a>
+                <a  class='vishnu_1'>HOME</a>            
+            </div>                      
+      <!--<div on id="vishnu_rightButton" onclick="vishnu_right()">></div>-->      
+        </div>        
+        <div id="vishnu_two">SHIEN</div>
+        <div id="vishnu_three"></div>
+        <div id="vishnu_four">
+        <div  id='vishnu_scroll'>
+                <a href="./Signin.html">Sign In</a>
+                <a href="./vishnu_Cart.html">Cart</a>
+                <a>Wish</a>
+                <a>Cust</a>
+                <a>Curr</a>                
+        </div>
+        </div>
+    </div>
+
+    <div id="vishnu_thirdBar">
+        <div id="vishnu_thirdBar1">
+
+            <a class="vishnuText">NEW IN</a>
+            <a class="vishnuText">TRENDS</a>
+            <a class="vishnuText">SHIENXRockTheRunway</a>
+            <a class="vishnuText">SHIEN X DESIGNER</a>
+            <a class="vishnuText">CLOTHING</a>
+            <a class="vishnuText">TOPS</a>
+            <a class="vishnuText">BOTTOMS</a>
+            <a class="vishnuText">SHOES AND ACCESSORIES</a>
+            <a class="vishnuText">SALE</a>
+            <a class="vishnuText">E-GIFT CARDS</a>           
+                      
+        </div>
+      <!--<div id="vishnu_slider">   
+            <div id='vishnu_moveLeft' onclick='vishnu_Moveleft()'><</div>         
+            <div id='vishnu_moveRight' onclick='vishnu_MoveRight()'>></div>         
+        </div>--->  
+        <div id="vishnu_thirdBar2">
+            <input id='vishnu_input1' type='text' >
+            <button id='vishnu_searchBtn'>Search</button>            
+        </div>
+       
+    </div>
+
+<div id="jaitopmargin">
+
+
+    <div id="ranproduct">
+        <div id="ransmallimg">
+
+        </div>
+        <div id="ranprodimage">
+
+        </div>
+        <div id="ranproductdetail">
+            <div id="ranprodtop">
+                <div id="ransale">
+
+                </div>
+                
+            </div>
+            <hr>
+
+            <div id="ranprodmid">
+
+               
+                <h3>SIZE(US) </h3>
+                <hr>
+                <div id="rancloth">
+                    <button onclick=""> XS </button>
+                    <button onclick=""> S </button>
+                    <button onclick=""> M </button>
+                    <button onclick=""> L </button>
+                </div>
+                <div id="ranbtn">
+                   <a href="./Signin.html"> <button onclick="">
+                    <h2> ADD TO BAG </h2>
+                </button></a>
+
+                </div>
+
+            </div>
+
+            <div id="ranprodbot">
+                <h5>Free Shipping</h5> <br>
+                Free standard shipping on orders over US$49.00 <br> 
+                Estimated to be delivered on 10/12/2021 - 10/14/2021<br><br>
+                <hr>
+                <h5>Free Return & Exchange</h5> <br>
+                Return and exchange goods are not supported
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div>
+    <div id="footer">
+        <div id="footerleft">
+        <div id="footerlefttop">
+            <div class="text">
+                <p class="footerfont footerheading">COMPANY INFO</p>
+                <p class="footerfont">About SHEIN</p> 
+                <p class="footerfont">Social Responsibility</p> 
+                <p class="footerfont"> Affiliate</p>
+                <p class="footerfont"> Fashion Blogger </p>
+                <p class="footerfont">Supply Chain</p>
+            </div>
+        
+            <div class="text">
+            <p class="footerfont footerheading">HELP & SUPPORT</p>
+            <p class="footerfont">About SHEIN</p> 
+            <p class="footerfont">Social Responsibility</p> 
+            <p class="footerfont"> Affiliate</p>
+            <p class="footerfont"> Fashion Blogger </p>
+            <p class="footerfont">Supply Chain</p>
+            </div>
+        
+            <div class="text">
+                <p class="footerfont footerheading">CUSTOMER CARE </p>
+                <p class="footerfont">About SHEIN</p> 
+                <p class="footerfont">Social Responsibility</p> 
+                <p class="footerfont"> Affiliate</p>
+                <p class="footerfont"> Fashion Blogger </p>
+                <p class="footerfont">Supply Chain</p>
+                <p class="footerfont"> Fashion Blogger </p>
+                <p class="footerfont">Supply Chain</p>
+            </div>
+         
+        </div>
+            <div id="footerleftbottom">
+        
+               <p class="footerfont">©2009-2021 SHEIN All Rights Reserved</p> 
+               <p class="footerfont ">Privacy Center  &nbsp;&nbsp;    Privacy & Cookie Policy   &nbsp;&nbsp;    Manage Cookies     &nbsp;&nbsp;   Terms & Conditions</p>  
+               <p class="footerfont"> Copyright Notice  &nbsp;&nbsp;   Accessibility  &nbsp;&nbsp;   United States</p>
+        
+           </div>
+        
+        </div>
+        
+        
+        
+        <div id="footerright">
+            <div id="footerrighttop">
+               <div> 
+                  <p class="footerfont footerheading">FIND US ON</p>
+               <div id="socialmedia"><img src="https://as2.ftcdn.net/v2/jpg/02/85/44/69/1000_F_285446949_eVkqwuNjPXLwR72oq0ctYltBCIflCbwh.jpg" alt=""></div>
+        </div>
+        <div>
+             <p class="footerfont footerheading">DOWNLOAD SHEIN APP TO</p>
+             <p class="footerfont footerheading">SAVE MORE!</p>
+           <div id="appstore"><img src="https://thumbs.dreamstime.com/t/android-apple-icons-android-apple-icons-white-background
+                       -editable-vector-illustration-132994273.jpg" alt=""></div>
+           </div>
+        </div>
+        
+        <div id="footerrightmid">
+               <p  class="footerfont footerheading">SIGN UP FOR SHEIN STYLE NEWS</p>
+               <input type="text"id="footerrightinput" placeholder="Your Email address">
+               <button id="footerrightbutton">Subscribe</button>
+        </div>
+        <div id="footerrightbottom">
+               <p  class="footerfont footerheading">WE ACCEPT</p>
+               <div id="weaccept"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/58dc0d15dd8c8e5c5730f697/images/5cb71e8d0428631d263c3f07/file-LntcohjLaE.jpg" alt="weaccept"></div>
+        </div>
+        
+        </div>
+        
+        </div>
+  </div>  
+    
+
+</body>
+
+</html>
+<script>
+
+    let element1 = JSON.parse(localStorage.getItem("element"));
+
+    let prodNameSection = document.getElementById("ranprodtop");
+
+    element1.forEach(function (product) {
+
+        let prodimage = document.getElementById("ranprodimage");
+
+        let prodsmallimage = document.getElementById("ransmallimg");
+
+        let prodName = document.createElement("p");
+
+        prodName.textContent = product.name;
+
+        let prodPrice = document.createElement("h3");
+
+        prodPrice.textContent = product.price;
+        console.log(product.name);
+
+        let prodimg = document.createElement("img");
+
+        let prodsmallimg = document.createElement("img");
+
+        prodimg.src = product.image;
+        console.log(product.image);
+
+        prodsmallimg.src = product.image;
+
+        prodNameSection.append(prodName, prodPrice);
+
+        prodimage.append(prodimg);
+
+
+        prodsmallimage.append(prodsmallimg);
+
+    });
+
+// // flash Sale 
+
+// let ranflashsale=document.getElementById("ransale")
+
+// var vishnu_H=document.createElement('div');
+// vishnu_H.style.color='black';
+// vishnu_H.style.fontWeight=700;
+
+// var vishnu_div2=document.createElement('div');
+// vishnu_div2.textContent='H';
+// vishnu_div2.style.color='balck';
+// vishnu_div2.style.fontWeight=700;
+
+// var vishnu_M=document.createElement('div');
+// vishnu_M.style.color='black';
+// vishnu_M.style.fontWeight=700;
+
+// var vishnu_div4=document.createElement('div');
+// vishnu_div4.textContent='M';
+// vishnu_div4.style.color='black';
+// vishnu_div4.style.fontWeight=700;
+
+// var vishnu_S=document.createElement('div');
+// vishnu_S.style.color='black';
+// vishnu_S.style.fontWeight=700;
+
+// var vishnu_div6=document.createElement('div');
+// vishnu_div6.textContent='S';
+// vishnu_div6.style.color='black';
+// vishnu_div6.style.fontWeight=700;
+
+// ranflashsale.append(vishnu_H,vishnu_div2,vishnu_M,vishnu_div4,vishnu_S,vishnu_div6)
+
+
+// // //every one second,decrement seconds count  
+
+// var vishnu_limH=1;
+// // limH=1 runs for 2 hours
+// var vishnu_limM=59; 
+// var vishnu_limS=60; 
+// // 1 hour=60 mins
+// var vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+
+// var vishnu_id=setInterval(function(){
+
+// if(vishnu_s>0){
+//     vishnu_s--;
+//     // console.log(vishnu_h,vishnu_m,vishnu_s);
+//     vishnu_H.textContent=Math.floor(vishnu_h/10)+''+vishnu_h%10;
+//     vishnu_M.textContent=Math.floor(vishnu_m/10)+''+vishnu_m%10;
+//     vishnu_S.textContent=Math.floor(vishnu_s/10)+''+vishnu_s%10;
+// }else{
+//     vishnu_s=vishnu_limS;
+//     if(vishnu_m>0) vishnu_m--;
+//     else{
+
+//         vishnu_m=vishnu_limM;        
+//         if(vishnu_h>0) vishnu_h--;
+//         else {
+//             // console.log('in here'+h,m,s)
+//             // clearInterval(id)
+//             vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+//         }
+//     }
+// }
+// },1000)
+
+
+
+
+// // // alert('sdf')
+var vishnu_text=document.getElementById('vishnu_codeText');
+var vishnu_code=document.getElementById('vishnu_codeOfTheDay');
+var vishnu_timer=document.getElementById('vishnu_timer');
+
+//Coupon Code information
+vishnu_text.textContent='10% OFF ON ORDERS OF $29+';
+vishnu_code.textContent='CODE: RUNAWAY21';
+
+////////CODEDiscount///////////
+vishnu_code.style.paddingTop="5px";
+vishnu_code.style.textAlign="center";
+vishnu_code.style.minWidth="200px";
+vishnu_code.style.fontFamily="sans-serif"
+vishnu_code.style.color="#010101";
+vishnu_code.style.fontSize="15px";
+
+//////////////text///////////////////
+vishnu_text.style.marginLeft="300px";
+vishnu_text.style.fontFamily="sans-serif";
+vishnu_text.style.fontSize="20px";
+vishnu_text.style.minWidth="300px";
+vishnu_text.style.textAlign="right"
+
+// //timer code
+// //create 4 div boxes 02 H 00 M 00 S    start from 2 hour
+var vishnu_H=document.createElement('div');
+vishnu_H.style.color='red';
+vishnu_H.style.fontWeight="700";
+vishnu_H.style.fontSize="23px";
+
+var vishnu_div2=document.createElement('div');
+vishnu_div2.textContent='H';
+vishnu_div2.style.color='white';
+vishnu_div2.style.fontWeight=700;
+vishnu_div2.style.fontSize="23px";
+
+var vishnu_M=document.createElement('div');
+vishnu_M.style.color='red';
+vishnu_M.style.fontWeight=700;
+vishnu_M.style.fontSize="23px";
+
+var vishnu_div4=document.createElement('div');
+vishnu_div4.textContent='M';
+vishnu_div4.style.color='white';
+vishnu_div4.style.fontWeight=700;
+vishnu_div4.style.fontSize="23px";
+
+var vishnu_S=document.createElement('div');
+vishnu_S.style.color='red';
+vishnu_S.style.fontWeight=700;
+vishnu_S.style.fontSize="23px";
+
+var vishnu_div6=document.createElement('div');
+vishnu_div6.textContent='S';
+vishnu_div6.style.color='white';
+vishnu_div6.style.fontWeight=700;
+vishnu_div6.style.fontSize="23px";
+
+vishnu_timer.append(vishnu_H,vishnu_div2,vishnu_M,vishnu_div4,vishnu_S,vishnu_div6)
+
+
+// //every one second,decrement seconds count  
+
+var vishnu_limH=1;
+// limH=1 runs for 2 hours
+var vishnu_limM=59; 
+var vishnu_limS=60; 
+// 1 hour=60 mins
+var vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+
+var vishnu_id=setInterval(function(){
+
+if(vishnu_s>0){
+    vishnu_s--;
+    // console.log(vishnu_h,vishnu_m,vishnu_s);
+    vishnu_H.textContent=Math.floor(vishnu_h/10)+''+vishnu_h%10;
+    vishnu_M.textContent=Math.floor(vishnu_m/10)+''+vishnu_m%10;
+    vishnu_S.textContent=Math.floor(vishnu_s/10)+''+vishnu_s%10;
+}else{
+    vishnu_s=vishnu_limS;
+    if(vishnu_m>0) vishnu_m--;
+    else{
+       
+        vishnu_m=vishnu_limM;        
+        if(vishnu_h>0) vishnu_h--;
+        else {
+            // console.log('in here'+h,m,s)
+            // clearInterval(id)
+            vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+        }
+    }
+}
+},1000);
+
+
+
+
+
+
+</script>
