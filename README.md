@@ -73,7 +73,7 @@ It is used to add logical functionalities to the web pages like the on Click fun
 
  ## Experience of team:
 
- Let me Share my experience , I am Jaidev Yadav, First i would like to thank my team for being supportive and responsive every time whenever I needed any suggestions. I Enjoyed our construct week journey, with great learning of new things while building project. I worked on front page,product page and merge all the code received from my team mates.
+ Let me Share my experience, First i would like to thank my team for being supportive and responsive every time whenever I needed any suggestions. I Enjoyed our construct week journey, with great learning of new things while building project. I worked on front page,product page and merge all the code received from my team mates.
 
 
 
