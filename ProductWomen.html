@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = 
+    "https://pbs.twimg.com/profile_images/585774307864780802/hSIi81s2.png" 
+            type = "image/x-icon">
+    
+    <title>Women's Clothing</title>
+    <style>
+
+
+#vishnuSortOuter{
+    margin-left: 85%;
+            width:180px;
+            height:20px;
+           padding: 20px;            
+            /* border:1px solid red; */
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 8px;
+            font-weight: 400;
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+        }
+        #vishnuSelect{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 10px;            
+            font-weight: 400;            
+            width:60%;
+            min-height:15px;
+            
+            border: 1px solid grey;
+            /* display: flex; */
+        }
+        #vishnuSelect>div:nth-child(1){
+            width:81%;
+            height:15px;            
+            display: inline-block;
+            vertical-align: top;
+            /* border:1px solid red;     */
+            text-align: center;
+            box-sizing: border-box;
+            padding: 3px;
+
+        }
+        #vishnuSelect>div:nth-child(2){
+            width:15%;
+            height:100%;            
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            padding:3px 5px;
+        }
+
+
+        #jaiparent {
+            width: 95%;
+            margin: auto;
+        }
+
+        #jaifilters {
+            background-color: #F6F6F6;
+            height: 120px;
+            padding: 10px;
+            padding-left: 20px;
+        }
+
+        #jaifilterbutton {
+            display: flex;
+        }
+
+        #jaifilterbutton>div {
+            border: 1px solid rgb(165, 161, 161);
+            background-color: white;
+            height: 20px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        #jaifilterbutton>div:hover {
+            border: 1px solid black;
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #jaiparent1 {
+            width: 100%;
+            display: flex;
+        }
+
+        #jaileft {
+            width: 15%;
+        }
+
+        #jairight {
+            width: 85%;
+            display: grid;
+            grid-template-columns: 23% 23% 23% 23%;
+            grid-gap: 2%;
+            justify-content: space-between;
+        }
+
+
+     
+        #footer{
+    background-color: #fafafa;
+    width: 100%;
+    height: 450px;
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#footerleft{
+    display: flex;
+    flex-direction: column;;
+    width: 40%; 
+}
+
+
+#footerlefttop{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: 30px;
+    width: 80%;
+  
+}
+
+#footerleftbottom{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:30% ;
+    align-self: flex-end; 
+ 
+   padding-top: 10px;
+}
+
+.text{
+    padding-top: 20px;
+    min-height: 250px;
+    width: 176px; 
+     
+}
+
+.footerfont{
+    padding: 5px;
+    margin: 0%;
+    margin-right: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #696969;
+}
+.footerheading{
+    font-weight: bold;
+    color: black;
+}
+
+.footerfont:hover{
+    color: black;
+}
+
+/*//////////////////////right box///////////////////*/
+
+#footerright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#footerright>div{
+    height: 28%;
+   
+}
+
+
+#footerright>div:nth-child(1){
+display: flex;
+margin-top: 50px;
+
+}
+#footerrighttop>div:nth-child(1){
+width: 250px;
+
+}
+
+#footerrightbutton{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 33px;
+    margin-left: 0;
+    
+}
+#footerrightinput{
+height: 28px;
+width: 400px;
+margin-right: 0;
+}
+
+img{
+  
+    width: 100%;
+}
+#weaccept{
+
+    height: 90px;
+    width: 80%;
+}
+
+#socialmedia{
+
+    height: 60px;
+    width: 200px;
+}
+
+#appstore{
+    width: 100px;
+    height: 50px;
+}
+
+#vishnu_top{            
+            width:100%;
+            /* border:1px solid black; */
+            height:50px;
+            background-color: black;            
+            display:flex;
+            font-weight: 700;
+            margin-top: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+#vishnu_codeText{
+    margin:10px;         
+        }
+#vishnu_codeOfTheDay{
+    margin:10px; 
+}
+#vishnu_timer{
+            padding: 10px;
+            margin-right: 150px;
+        }
+#vishnu_codeOfTheDay{
+            background-color: white;
+            padding: 3px 3px 3px 15px;    
+            width:21%;       
+        }
+#vishnu_codeText{
+            width:65%;
+            margin-left:10%;
+            padding:10px;
+            color: white;
+        }
+#vishnu_timer{
+            margin-left:20%;            
+            display:flex;
+            padding-bottom:0px;
+            
+        }
+#vishnu_timer>div{
+            /* border: 1px solid red; */            
+            width:20%;     
+            padding:5px;       
+        }
+#vishnu_secondBar{
+            width:100%;
+            /* border:1px solid red; */
+            height:100%;
+            display:flex;
+            background-color: #F7F8FA; 
+            align-content: center;
+            height: 80px;
+        }
+
+#vishnu_one{
+            width:45%;
+            display:flex;
+            font-family: Muli, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            
+        }
+#vishnu_two{
+           width:20%;
+           text-align:center;
+           font-weight: 600;
+           font-size: 40px;
+           font-family: Muli, Arial, Helvetica, sans-serif;
+           padding-top: 15px;
+           letter-spacing: 4px;
+        }
+#vishnu_three{
+            width:20%;
+            
+        }
+#vishnu_four{
+            width:20%;
+            /* background-color: pink; */
+            text-align:left;
+            margin-top:5px;
+            display:flex;
+        }
+        /* #vishnu_one>a:nth-child(2),#vishnu_one>a:nth-child(3),#vishnu_one>a:nth-child(4),#vishnu_one>a:nth-child(5),#vishnu_one>a:nth-child(6),#vishnu_one>a:nth-child(7){
+            border:1px solid green;
+            width:20%;
+            padding-top:3%;
+            text-align: center;
+            
+        } */
+#vishnu_scroll{            
+            display: flex;                        
+            width: 100%;
+            overflow:hidden;
+            padding:10px;
+            padding-left: 0;
+            /* white-space: nowrap; */
+        }
+#vishnu_scroll>a{            
+            /* border:1px solid green;             */
+            padding:3% 2.5%;            
+            text-align: center;   
+            text-decoration: none;        
+            color:grey;
+        }  
+#vishnu_scroll>a:hover{
+            color:black;
+        }    
+        
+#vishnu_leftButton,#vishnu_rightButton{
+            /* border:1px solid pink;             */
+            width: 3%;
+            padding-top:5%;
+            text-align: center;        
+            
+        }
+#vishnu_three{
+            font-family:Muli, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            padding: 15px 15px 1px 15px;
+            
+        }
+
+.campaign{
+            text-align: center;
+            margin-top: 80px;
+
+        }
+
+#vishnu_thirdBar{
+            width:100%;
+            height:100%;
+            /* background-color: grey; */
+            height:50px;    /*<< make this 100% once done*/            
+            display:flex;       
+            /* border: 1px solid red;   */
+        }
+.vishnuText{
+            /* border: 1px solid red; */
+            margin: 15px 12px;
+            font-family: Muli, Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+.vishnuText:hover{
+           /* color: blue; */
+           text-decoration-line: underline;           
+           text-underline-offset: 20px;   /*<<<   Adjust this value as per the bar width to align properly*/
+        }
+
+#vishnu_thirdBar{
+
+color: #3D3D3D;
+
+
+}  
+.vishnuText{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #3D3D3D;
+    font-weight: 500;
+}      
+#vishnu_thirdBar1{
+            /* border: 1px solid red; */
+            width:75%;
+            display:flex;           
+        }
+#vishnu_thirdBar2{
+            /* border: 1px solid green;     */
+            width:20%;        
+            display:flex;   
+            justify-content: right;      
+            padding: 8px;
+            padding-right: 0;
+            margin-right: 0;
+            margin-left: 80px;
+        }
+#vishnu_slider{
+            width:5%;
+            /* border:1px solid tomato; */
+            display:flex;
+        }
+#vishnu_slider>div{
+            /* border:1px solid tomato; */
+            width:50%;
+            padding-top: 30%;
+            padding-left: 20%;
+        }
+#vishnu_moveLeft,#vishnu_moveRight{
+            font-size:15px;
+            font-weight:bolder;     
+}
+
+#vishnu_searchBtn{
+    background-color: black;
+    color: cornsilk;
+}
+
+ 
+#outer{
+            /* border:1px solid red; */
+            width:160px;   /*<< Minimum width to avoid text misalignment in sleeve length category*/
+            height:600px;  
+            overflow-y:scroll;            
+        }
+        #outer>div{
+            width:100%;
+            min-height:5%;
+            display:flex;
+            padding:10px;
+            box-sizing: border-box;
+            /* border: 1px solid red;    */
+            font-family: Muli, Arial, Helvetica, sans-serif;     
+            font-weight: 700;    
+            font-size:10px;
+            color:#393939;
+        }
+      
+        #outer>div>div:nth-child(1){     
+            width:93%;     
+            
+        }
+        #outer>div>div:nth-child(2){     
+            font-size: 10px;       
+            /* margin-left:70%; */
+        }
+        #vishnuAd>#spec{
+            box-sizing: border-box;
+            margin:10%;            
+        }
+        img{
+            width:100%;
+            height:100%;
+        }
+        #vishnu_color+div>a{
+            border:2px solid green;
+        }
+        #vish_slider{
+            
+            height: 2px;
+            
+        }
+
+#jaifooterover{
+    margin-top: 1000px;
+}
+/* id footer provided inline style*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div id='vishnu_top'>
+        <div id='vishnu_codeText'></div>
+        <div id='vishnu_codeOfTheDay'></div>
+        <div id='vishnu_timer'></div>
+    </div>    
+
+    <div id="vishnu_secondBar">
+        <div id="vishnu_one">
+           <!--<div id="vishnu_leftButton" onclick="vishnu_left()"></div><</div> --->  
+            <div id='vishnu_scroll'>
+                <a  class='vishnu_1' >WOMEN</a>
+                <a  class='vishnu_1'>CURVE+PLUS</a>
+                <a  class='vishnu_1'>KIDS</a>
+                <a  class='vishnu_1' href='./ProductMen.html'>MEN</a>
+                <a  class='vishnu_1'>BEAUTY</a>
+                <a  class='vishnu_1'>HOME</a>            
+            </div>                      
+      <!--<div on id="vishnu_rightButton" onclick="vishnu_right()">></div>-->      
+        </div>        
+        <a href="./Home.html"><div id="vishnu_two"> SHIEN</div></a>
+        <div id="vishnu_three"></div>
+        <div id="vishnu_four">
+        <div  id='vishnu_scroll'>
+            <a href="./Signin.html">Sign In</a>
+            <a href="./vishnu_Cart.html">Cart</a>
+                <a>Wish</a>
+                <a>Cust</a>
+                <a>Curr</a>                
+        </div>
+        </div>
+    </div>
+
+    <div id="vishnu_thirdBar">
+        <div id="vishnu_thirdBar1">
+
+            <a class="vishnuText">NEW IN</a>
+            <a class="vishnuText">TRENDS</a>
+            <a class="vishnuText">SHIENXRockTheRunway</a>
+            <a class="vishnuText">SHIEN X DESIGNER</a>
+            <a class="vishnuText">CLOTHING</a>
+            <a class="vishnuText">TOPS</a>
+            <a class="vishnuText">BOTTOMS</a>
+            <a class="vishnuText">SHOES AND ACCESSORIES</a>
+            <a class="vishnuText">SALE</a>
+            <a class="vishnuText">E-GIFT CARDS</a>           
+                      
+        </div>
+      <!--<div id="vishnu_slider">   
+            <div id='vishnu_moveLeft' onclick='vishnu_Moveleft()'><</div>         
+            <div id='vishnu_moveRight' onclick='vishnu_MoveRight()'>></div>         
+        </div>--->  
+        <div id="vishnu_thirdBar2">
+            <input id='vishnu_input1' type='text' >
+            <button id='vishnu_searchBtn'>Search</button>            
+        </div>
+       
+    </div>
+    <div id="jaiparent">
+        <p id="jaihometxt">Home / <b>Women Clothing</b></p>
+
+        <div id="jaifilters">
+
+            <h2>Women Clothing</h2>
+
+            <div id="jaifilterbutton">
+                <div>New</div>
+                <div>Top Rated</div>
+                <div>Hallowen</div>
+                <div>Dresses</div>
+                <div>Blouses</div>
+                <div>T-Shirts</div>
+                <div>Women Top</div>
+                <div>Pants</div>
+                <div>Skirts</div>
+                <div>Body Suits</div>
+            </div>
+        </div>
+
+        <div>
+           <div id="vishnuSortOuter">
+        <div style='font-size:12px'>Sort By</div>
+        <div id='vishnuSelect' onmouseover="vishnuDrop(1)" onmouseleave="vishnuDrop(0)" >
+            <div>Recommend</div>
+            <div id='vishnuDropSymbol'>\/</div>                       
+            <!-- <div>.</div> -->
+        </div>
+    </div>
+
+            <div id="jaiparent1">
+                <div id="jaileft">
+                    <div id="outer">
+                        <div id="vishnu_size">
+                            <div>Size</div>
+                            <div onclick='vishnuOptions("vishnu_size")'>+</div>        </div>
+                        <div id="vishnu_type">
+                            <div>Type</div>
+                            <div onclick='vishnuOptions("vishnu_type")'>+</div>
+                        </div>
+                        <div id="vishnu_style">
+                            <div >Style</div>
+                            <div onclick='vishnuOptions("vishnu_style")'>+</div>
+                        </div>
+                        <div id="vishnu_length">
+                            <div>Length</div>
+                            <div onclick='vishnuOptions("vishnu_length")'>+</div>
+                        </div>
+                        <div id="vishnu_patternType">
+                            <div>Pattern Type</div>
+                            <div onclick='vishnuOptions("vishnu_patternType")'>+</div>
+                        </div>
+                        <div id="vishnu_sleeveLength">
+                            <div>Sleeve Length</div>
+                            <div onclick='vishnuOptions("vishnu_sleeveLength")'>+</div>
+                        </div>
+                        <div id="vishnu_color">
+                            <div>Color</div>
+                            <div onclick='vishnuOptions("vishnu_color")'>+</div>
+                        </div>
+                        <div id="vishnu_material">
+                            <div>Material</div>
+                            <div onclick='vishnuOptions("vishnu_material")'>+</div>
+                        </div>
+                        <div id="vishnu_neckline">
+                            <div>Neckline</div>
+                            <div onclick='vishnuOptions("vishnu_neckline")'>+</div>
+                        </div>
+                        <div id="vishnu_priceRange" >
+                            <div>Price Range(USD)
+                                <div><input id='vish_slider' type="range" min="0" max="100" step="1" value="0"/></div>                
+                            </div>            
+                        </div>
+                        <div id='vishnuAd' >   
+                            <div id='spec'><img src='https://img.ltwebstatic.com/images3_acp/2021/09/26/16326553792071ada9e3cd404d2b101bef7f208e9b.webp'></div>         
+                        </div>
+                    </div>
+                </div>
+                <div id="jairight"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="jaifooterover">
+        <div id="footer" style="position: relative; bottom: 0; margin-top: 500px;">
+            <div id="footerleft">
+            <div id="footerlefttop">
+                <div class="text">
+                    <p class="footerfont footerheading">COMPANY INFO</p>
+                    <p class="footerfont">About SHEIN</p> 
+                    <p class="footerfont">Social Responsibility</p> 
+                    <p class="footerfont"> Affiliate</p>
+                    <p class="footerfont"> Fashion Blogger </p>
+                    <p class="footerfont">Supply Chain</p>
+                </div>
+            
+                <div class="text">
+                <p class="footerfont footerheading">HELP & SUPPORT</p>
+                <p class="footerfont">About SHEIN</p> 
+                <p class="footerfont">Social Responsibility</p> 
+                <p class="footerfont"> Affiliate</p>
+                <p class="footerfont"> Fashion Blogger </p>
+                <p class="footerfont">Supply Chain</p>
+                </div>
+            
+                <div class="text">
+                    <p class="footerfont footerheading">CUSTOMER CARE </p>
+                    <p class="footerfont">About SHEIN</p> 
+                    <p class="footerfont">Social Responsibility</p> 
+                    <p class="footerfont"> Affiliate</p>
+                    <p class="footerfont"> Fashion Blogger </p>
+                    <p class="footerfont">Supply Chain</p>
+                    <p class="footerfont"> Fashion Blogger </p>
+                    <p class="footerfont">Supply Chain</p>
+                </div>
+             
+            </div>
+                <div id="footerleftbottom">
+            
+                   <p class="footerfont">©2009-2021 SHEIN All Rights Reserved</p> 
+                   <p class="footerfont ">Privacy Center  &nbsp;&nbsp;    Privacy & Cookie Policy   &nbsp;&nbsp;    Manage Cookies     &nbsp;&nbsp;   Terms & Conditions</p>  
+                   <p class="footerfont"> Copyright Notice  &nbsp;&nbsp;   Accessibility  &nbsp;&nbsp;   United States</p>
+            
+               </div>
+            
+            </div>
+            
+            
+            
+            <div id="footerright">
+                <div id="footerrighttop">
+                   <div> 
+                      <p class="footerfont footerheading">FIND US ON</p>
+                   <div id="socialmedia"><img src="https://as2.ftcdn.net/v2/jpg/02/85/44/69/1000_F_285446949_eVkqwuNjPXLwR72oq0ctYltBCIflCbwh.jpg" alt=""></div>
+            </div>
+            <div>
+                 <p class="footerfont footerheading">DOWNLOAD SHEIN APP TO</p>
+                 <p class="footerfont footerheading">SAVE MORE!</p>
+               <div id="appstore"><img src="https://thumbs.dreamstime.com/t/android-apple-icons-android-apple-icons-white-background
+                           -editable-vector-illustration-132994273.jpg" alt=""></div>
+               </div>
+            </div>
+            
+            <div id="footerrightmid">
+                   <p  class="footerfont footerheading">SIGN UP FOR SHEIN STYLE NEWS</p>
+                   <input type="text"id="footerrightinput" placeholder="Your Email address">
+                   <button id="footerrightbutton">Subscribe</button>
+            </div>
+            <div id="footerrightbottom">
+                   <p  class="footerfont footerheading">WE ACCEPT</p>
+                   <div id="weaccept"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/58dc0d15dd8c8e5c5730f697/images/5cb71e8d0428631d263c3f07/file-LntcohjLaE.jpg" alt="weaccept"></div>
+            </div>
+            
+            </div>
+            
+            </div>
+      </div>  
+
+</body>
+
+</html>
+
+<script>
+
+
+// // // alert('sdf')
+var vishnu_text=document.getElementById('vishnu_codeText');
+var vishnu_code=document.getElementById('vishnu_codeOfTheDay');
+var vishnu_timer=document.getElementById('vishnu_timer');
+
+//Coupon Code information
+vishnu_text.textContent='10% OFF ON ORDERS OF $29+';
+vishnu_code.textContent='CODE: RUNAWAY21';
+
+////////CODEDiscount///////////
+vishnu_code.style.paddingTop="5px";
+vishnu_code.style.textAlign="center";
+vishnu_code.style.minWidth="200px";
+vishnu_code.style.fontFamily="sans-serif"
+vishnu_code.style.color="#010101";
+vishnu_code.style.fontSize="15px";
+
+//////////////text///////////////////
+vishnu_text.style.marginLeft="300px";
+vishnu_text.style.fontFamily="sans-serif";
+vishnu_text.style.fontSize="20px";
+vishnu_text.style.minWidth="300px";
+vishnu_text.style.textAlign="right"
+
+// //timer code
+// //create 4 div boxes 02 H 00 M 00 S    start from 2 hour
+var vishnu_H=document.createElement('div');
+vishnu_H.style.color='red';
+vishnu_H.style.fontWeight="700";
+vishnu_H.style.fontSize="23px";
+
+var vishnu_div2=document.createElement('div');
+vishnu_div2.textContent='H';
+vishnu_div2.style.color='white';
+vishnu_div2.style.fontWeight=700;
+vishnu_div2.style.fontSize="23px";
+
+var vishnu_M=document.createElement('div');
+vishnu_M.style.color='red';
+vishnu_M.style.fontWeight=700;
+vishnu_M.style.fontSize="23px";
+
+var vishnu_div4=document.createElement('div');
+vishnu_div4.textContent='M';
+vishnu_div4.style.color='white';
+vishnu_div4.style.fontWeight=700;
+vishnu_div4.style.fontSize="23px";
+
+var vishnu_S=document.createElement('div');
+vishnu_S.style.color='red';
+vishnu_S.style.fontWeight=700;
+vishnu_S.style.fontSize="23px";
+
+var vishnu_div6=document.createElement('div');
+vishnu_div6.textContent='S';
+vishnu_div6.style.color='white';
+vishnu_div6.style.fontWeight=700;
+vishnu_div6.style.fontSize="23px";
+
+vishnu_timer.append(vishnu_H,vishnu_div2,vishnu_M,vishnu_div4,vishnu_S,vishnu_div6)
+
+
+// //every one second,decrement seconds count  
+
+var vishnu_limH=1;
+// limH=1 runs for 2 hours
+var vishnu_limM=59; 
+var vishnu_limS=60; 
+// 1 hour=60 mins
+var vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+
+var vishnu_id=setInterval(function(){
+
+if(vishnu_s>0){
+    vishnu_s--;
+    // console.log(vishnu_h,vishnu_m,vishnu_s);
+    vishnu_H.textContent=Math.floor(vishnu_h/10)+''+vishnu_h%10;
+    vishnu_M.textContent=Math.floor(vishnu_m/10)+''+vishnu_m%10;
+    vishnu_S.textContent=Math.floor(vishnu_s/10)+''+vishnu_s%10;
+}else{
+    vishnu_s=vishnu_limS;
+    if(vishnu_m>0) vishnu_m--;
+    else{
+       
+        vishnu_m=vishnu_limM;        
+        if(vishnu_h>0) vishnu_h--;
+        else {
+            // console.log('in here'+h,m,s)
+            // clearInterval(id)
+            vishnu_h=vishnu_limH,vishnu_m=vishnu_limM,vishnu_s=vishnu_limS;
+        }
+    }
+}
+},1000);
+
+function vishnuOptions(val){
+// alert(val+' clicked!');
+var vishnuBox=document.getElementById(val);
+var vishCat=vishnuBox.getElementsByTagName('div')[0].textContent;
+var VishnuOptionB=document.createElement('div');
+
+if(vishnuBox.getElementsByTagName('div')[1].textContent=='+'){
+    vishnuBox.getElementsByTagName('div')[1].textContent='-'
+    var obj={
+    'Size':['one-size','XXS','XS','S','M','L'],
+    'Type':['Bodycon','A Line','Fit and Flare','Fitted','Tunic','Smock'],
+    'Style':['Elegant','Boho','Glamorous','Sexy','Casual','Romantic'],
+    'Length':['Midi','Long','Short','Knee Length','Maxi','Mini'],
+    'Pattern Type':['Camo','Leopard','Heart','Polka Dot','Plain','Random Print'],
+   'Sleeve Length':['Long Sleeve','Three Quarter Length Sleeve','Short Sleeve','Half Sleeve','Sleeveless','Cap Sleeve'],
+    'Color':['#3678BD','#D22426','#FF8FBA','#398351','#A75430','#AB67D7'],
+    'Material':['Recycle Polyester','Cotton Blends','Viscose','Chiffon','Polyester','Cotton'],
+    'Neckline':['Boat Neck','Keyhole Neckline','Sweetheart','Asymmetrical Neck','V Neck','Scoop Neck'],
+}
+console.log(vishCat)
+var i=0;
+
+
+    if(vishCat=='Size'){
+        VishnuOptionB.style.display='grid';
+        VishnuOptionB.style.gridTemplateColumns='40% 40%';
+        VishnuOptionB.style.gridGap='10px';
+        VishnuOptionB.style.justifyContent='center';
+    }else if(vishCat=='Color'){
+        VishnuOptionB.style.display='grid';
+        VishnuOptionB.style.gridTemplateColumns='10% 10% 10%';
+        VishnuOptionB.style.gridGap='1px';
+        VishnuOptionB.style.justifyContent='center';
+    }else{
+        VishnuOptionB.style.display='block';
+    }
+
+
+
+//create elmts to add to vishnuBox
+var el1=document.createElement('div')
+// el1.style.border='1px solid brown'
+
+//input box and text as children
+ 
+var el1Input=document.createElement('input');
+el1Input.type="checkbox";
+el1Input.style.width='9px';
+var el1Text=document.createElement('div');
+el1Text.style.display='inline-block';
+el1Text.style.fontSize='8px';
+el1Text.style.fontWeight='400';
+if(vishCat!='Color')
+{   el1Text.textContent=obj[vishCat][i++];
+    el1.append(el1Input,el1Text);
+}else{
+    let j=i;   
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';         
+     
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el1.append(vishnuCc);
+}
+///////////////////////////////
+
+var el2=document.createElement('div')
+// el2.style.border='1px solid brown'
+//input box and text as children
+var el2Input=document.createElement('input');
+el2Input.type="checkbox";
+el2Input.style.width='9px';
+var el2Text=document.createElement('div');
+el2Text.style.display='inline-block';
+el2Text.style.fontSize='8px';
+el2Text.style.fontWeight='400';
+if(vishCat!='Color')
+{
+    el2Text.textContent=obj[vishCat][i++];
+    el2.append(el2Input,el2Text);
+}else{
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';   
+         
+    let j=i;    
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el2.append(vishnuCc);
+}
+
+///////////////////////////////
+
+var el3=document.createElement('div')
+// el3.style.border='1px solid brown'
+//input box and text as children
+var el3Input=document.createElement('input');
+el3Input.type="checkbox";
+el3Input.style.width='9px';
+var el3Text=document.createElement('div');
+el3Text.style.display='inline-block';
+el3Text.style.fontSize='8px';
+el3Text.style.fontWeight='400';
+
+if(vishCat!='Color')
+{
+    el3Text.textContent=obj[vishCat][i++];
+    el3.append(el3Input,el3Text);
+}else{
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';      
+    let j=i;    
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el3.append(vishnuCc);
+}
+///////////////////////////////
+
+var el4=document.createElement('div')
+// el4.style.border='1px solid brown'
+//input box and text as children
+var el4Input=document.createElement('input');
+el4Input.type="checkbox";
+el4Input.style.width='9px';
+var el4Text=document.createElement('div');
+el4Text.style.display='inline-block';
+el4Text.style.fontSize='8px';
+el4Text.style.fontWeight='400';
+
+if(vishCat!='Color')
+{
+    el4Text.textContent=obj[vishCat][i++];
+    el4.append(el4Input,el4Text);
+}else{
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';      
+    let j=i;    
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el4.append(vishnuCc);
+}
+///////////////////////////////
+
+var el5=document.createElement('div')
+// el5.style.border='1px solid brown'
+//input box and text as children
+var el5Input=document.createElement('input');
+el5Input.type="checkbox";
+el5Input.style.width='9px';
+var el5Text=document.createElement('div');
+el5Text.style.display='inline-block';
+el5Text.style.fontSize='8px';
+el5Text.style.fontWeight='400';
+if(vishCat!='Color')
+{
+    el5Text.textContent=obj[vishCat][i++];
+    el5.append(el5Input,el5Text);
+}else{
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';      
+    let j=i;    
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el5.append(vishnuCc);
+}
+///////////////////////////////
+
+var el6=document.createElement('div')
+// el6.style.border='1px solid brown'
+//input box and text as children
+var el6Input=document.createElement('input');
+el6Input.type="checkbox";
+el6Input.style.width='9px';
+var el6Text=document.createElement('div');
+el6Text.style.display='inline-block';
+el6Text.style.fontSize='8px';
+el6Text.style.fontWeight='400';
+if(vishCat!='Color')
+{
+    el6Text.textContent=obj[vishCat][i++];
+    el6.append(el6Input,el6Text);
+}else{
+    var vishnuCc=document.createElement('a');
+    vishnuCc.style.display='inline-block';    
+    vishnuCc.style.height='9px';
+    vishnuCc.style.width='9px';
+    vishnuCc.style.borderRadius='7px';     
+    vishnuCc.style.backgroundColor=obj[vishCat][i];    
+    // vishnuCc.style.margin='30%';      
+    let j=i;    
+    vishnuCc.onmouseover=function(event){   
+        
+        event.target.style.border='1px solid black'
+        event.target.style.padding='1px';    
+    }      
+    vishnuCc.onmouseleave=function(event){
+        event.target.style.border=''
+        event.target.style.padding='';
+        // console.log(j,obj[vishCat][j])
+        event.target.style.backgroundColor=obj[vishCat][j];       
+     }
+     i++;
+    el6.append(vishnuCc);
+}
+///////////////////////////////
+
+VishnuOptionB.append(el1,el2,el3,el4,el5,el6);
+//////////////////////////////////
+// VishnuOptionB.innerHTML=null;
+
+vishnuBox.after(VishnuOptionB);
+}else{
+    // alert('Here');
+    vishnuBox.nextSibling.remove();
+    vishnuBox.getElementsByTagName('div')[1].textContent='+'
+}
+}
+
+function vishnuDrop( val ){
+var vishnuSelect=document.getElementById('vishnuSelect');
+
+var vishnuDropSymbol=document.getElementById('vishnuDropSymbol');
+
+// console.log(vishnuSelect);
+if(val==1 && vishnuSelect.getElementsByTagName('div')[1].textContent=='\\/'){
+    vishnuSelect.getElementsByTagName('div')[1].textContent='/\\';
+    // alert('asd')
+    var vishnuDropDiv=document.createElement('div');
+    vishnuDropDiv.style.width='108px';
+    vishnuDropDiv.style.height='150px';
+    // vishnuDropDiv.style.backgroundColor='pink'
+    vishnuDropDiv.style.overflowY='scroll'
+    // vishnuDropDiv.style.marginLeft='6%';
+    vishnuDropDiv.style.display='block'
+    // add the options to dropDownDiv
+    // <div id="LowToHigh">Low To High</div>
+    //         <div id="HighToLow">High To Low</div>
+    //         <div id="MostPopular">Most Popular</div>
+    //         <div id="NewArrivals">New Arrivals</div>
+    //         <div id="TopReviewed">Top Reviewed</div>
+    //         <div id="Recommend">Recommend</div>
+    var LowToHigh=document.createElement('div');
+    LowToHigh.textContent='Low To High';
+    LowToHigh.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    LowToHigh.style.fontSize='10px';
+    LowToHigh.style.fontWeight='400';   
+    // LowToHigh.style.border='1px solid red'
+    LowToHigh.style.padding='10px';
+    LowToHigh.onmouseover=function(){
+        LowToHigh.style.backgroundColor='#F6F6F6';
+    }
+    LowToHigh.onmouseleave=function(){
+        LowToHigh.style.backgroundColor='white';
+    }
+    LowToHigh.onclick=function(){
+        vishnuSelect.getElementsByTagName('div')[0].textContent='Low To High'
+        LH();
+    }
+
+    var HighToLow=document.createElement('div');
+    HighToLow.textContent='High To Low';
+    HighToLow.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    HighToLow.style.fontSize='10px';
+    HighToLow.style.fontWeight='400';  
+    // HighToLow.style.border='1px solid red'
+    HighToLow.style.padding='10px';
+    HighToLow.onmouseover=function(){
+        HighToLow.style.backgroundColor='#F6F6F6';
+    }
+    HighToLow.onmouseleave=function(){
+        HighToLow.style.backgroundColor='white';
+    }
+    HighToLow.onclick=function(){
+        vishnuSelect.getElementsByTagName('div')[0].textContent='High To Low';
+        HL();
+    }
+
+    var MostPopular=document.createElement('div');
+    MostPopular.textContent='Most Popular';
+    MostPopular.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    MostPopular.style.fontSize='10px';
+    MostPopular.style.fontWeight='400';  
+    // MostPopular.style.border='1px solid red'
+    MostPopular.style.padding='10px';
+    MostPopular.onmouseover=function(){
+        MostPopular.style.backgroundColor='#F6F6F6';
+    }
+    MostPopular.onmouseleave=function(){
+        MostPopular.style.backgroundColor='white';
+    }
+
+    var NewArrivals=document.createElement('div');
+    NewArrivals.textContent='New Arrivals';
+    NewArrivals.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    NewArrivals.style.fontSize='10px';
+    NewArrivals.style.fontWeight='400';  
+    // NewArrivals.style.border='1px solid red'
+    NewArrivals.style.padding='10px';
+    NewArrivals.onmouseover=function(){
+        NewArrivals.style.backgroundColor='#F6F6F6';
+    }
+    NewArrivals.onmouseleave=function(){
+        NewArrivals.style.backgroundColor='white';
+    }
+
+    var TopReviewed=document.createElement('div');
+    TopReviewed.textContent='Top Reviewed';
+    TopReviewed.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    TopReviewed.style.fontSize='10px';
+    TopReviewed.style.fontWeight='400';  
+    // TopReviewed.style.border='1px solid red'
+    TopReviewed.style.padding='10px';
+    TopReviewed.onmouseover=function(){
+        TopReviewed.style.backgroundColor='#F6F6F6';
+    }
+    TopReviewed.onmouseleave=function(){
+        TopReviewed.style.backgroundColor='white';
+    }
+
+    var Recommend=document.createElement('div');
+    Recommend.textContent='Recommend';
+    Recommend.style.fontFamily='font-family:Arial, Helvetica, sans-serif';
+    Recommend.style.fontSize='10px';
+    Recommend.style.fontWeight='400';  
+    // Recommend.style.border='1px solid red'
+    Recommend.style.padding='10px';
+    Recommend.onmouseover=function(){
+        Recommend.style.backgroundColor='#F6F6F6';
+    }
+    Recommend.onmouseleave=function(){
+        Recommend.style.backgroundColor='white';
+    }
+
+    vishnuDropDiv.append(LowToHigh,HighToLow,MostPopular,NewArrivals,TopReviewed,Recommend)
+    /////////////////////////////////
+    vishnuDropSymbol.after(vishnuDropDiv);
+
+}else{
+    // console.log(val)   
+    if(val==0 &&   vishnuSelect.getElementsByTagName('div')[1].textContent=='/\\'){
+        vishnuDropSymbol.nextSibling.remove();
+        vishnuSelect.getElementsByTagName('div')[1].textContent='\\/';    
+    }
+        
+}
+}
+
+
+function LH(){
+    //alert('Low to High called!')
+
+    let arr =data.sort(function(a,b){
+        return a.price1-b.price1;
+    });
+//console.log("arr",arr);
+    showProduct(arr)
+//Please write function to sort Low to High
+}
+function HL(){
+ //alert('High to Low called!')
+    let arr =data.sort(function(a,b){
+        return b.price1-a.price1;
+    });
+
+   // console.log("arr",arr);
+   showProduct(arr)
+    //Please write function to sort High to Low
+}
+
+
+    var data = [
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/23/1629717321390678bb38ed4a7054e5d8f29620d778_thumbnail_900x.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"24",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/25/1629885561fff9220e2510fee7567d1ec5b6409a28_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/07/23/16270068375ce6ce4697da9b0bdc717c5ffa6bf4d6_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/07/21/1626835214434f413f5e00557057aa3d222af09802_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/23/1629683942a122a924c9af877b1bb289f84b297301_thumbnail_405x552.webp"
+        },
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"10",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/16/16290853451ce5f5172f79c14b054025c30db8165f_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/09/26/163263473553bf905407bdce3d8323e1ee6dfa4b0b_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/06/08/1623118468bc8b52f9b803cbb9d5dbb48117429e19_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/31/16303759420df702cd1dab8b08ac5cb18b07de12c0_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2020/08/12/159721380130f940fcc248588a571eb1f2932366a5_thumbnail_405x552.webp"
+        },
+
+
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"19",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/02/06/16125859939db34708ce349238da89727e3e306cac_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/09/08/1631100796dad011e3ee5598ded681bb3aa6f23255_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/09/13/1631515696d722369c9798c1c8d3501e543f52dddb_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/06/29/1624932473a81fd493904c65fc11acbb798ee572e4_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/18/1629267751ae7b155d1711c482c4722d4d8cd444b9_thumbnail_405x552.webp"
+        },
+
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"19",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/02/05/16125017899d08d0215cdf1c45f7eb7cc0e281c932_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/07/30/1627608568b5d37ea14d9acbf8101a5e40b1c976ca_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/04/12/16182320177a6d14628c31d362da0020d6dbec6032_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/31/1630378501d8849eb82bd54da9ddc4c20b9366a086_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/01/18/1610959949f374b478b1b845968b8b8c4023769d43_thumbnail_405x552.webp"
+        },
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"19",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/06/29/1624931383cc8b30d80325e38d619ac65698f92d78_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/18/1629256357e22c0a185978c2c6c73a10ec50b90a22_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/06/04/1622792425ab76a2aef7c9d675564310490559014d_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/03/12/1615513946ab41d4d1c5608fddefe48798ab67c16f_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2020/11/23/160611853302df2119ac9800d15d363a38114930e2_thumbnail_405x552.webp"
+        },
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"19",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/03/162797307107fad38a41875cfecbb5bf768a58ec59_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/07/23/1627027549a1a45ba551483731073e80f4c19135cb_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"50",
+            image: "https://img.ltwebstatic.com/images3_pi/2019/12/03/1575356015f36977311b0d32e519bc0ab001b45bba_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"13",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/07/09/162582586515e857a5e00d6bd8d07f9e71f1de9ef6_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"30",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/27/1630034082a6792183bfa8a01beb12eae00f934e0f_thumbnail_405x552.webp"
+        },
+
+
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"19",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/02/01/1612159000bcfc98ca2d02449b5d2ff822a8f52cb2_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/09/13/1631499851bc7baeeb6831078f71a1485fbb6e5286_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"17",
+            image: "https://img.ltwebstatic.com/images3_pi/2020/12/29/160922233763c636005f35e6f2a26ea4d61cc1eab4_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"26",
+            image: "https://img.ltwebstatic.com/images3_pi/2021/04/07/16177940234c3630b78e8262adea0d13e3d5c0f21d_thumbnail_405x552.webp"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"20",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/08/30/1630289240efb7f0e1597182a0de132c2890a6240a_thumbnail_405x552.webp"
+        },
+
+
+
+
+
+        {
+            name: "All Over Print Shirred Waist Dress",
+            price: "US$19.00",
+            price1:"24",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/01/07/16099982505b28c25272d890e81b645d4dcf443b8e_thumbnail_405x552.webp"
+        },
+        {
+            name: "Color-block Button Up Shirt Dress",
+            price: "US$20.00",
+            price1:"20",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2019/10/24/15719065759462fe71e6baab529b18ba197b457d01_thumbnail_405x552.webp"
+        },
+        {
+            name: "Button Front Houndstooth Bodycon Dress",
+            price: "US$17.00",
+            price1:"19",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/04/29/161969316010ea296d7373045ff19067909fd4a167_thumbnail_405x552.webp"
+        },
+        {
+            name: "SHEIN High Neck Houndstooth Prints",
+            price: "US$13.00",
+            price1:"29",
+
+            image: "http://img.ltwebstatic.com/images3_pi/2021/08/27/1630041519a8758bb9d6123b6394d5cdf3076bc25b.png"
+        },
+        {
+            name: "Shirred Waist Tiered Hem A-line Dress",
+            price: "US$20.00",
+            price1:"21",
+
+            image: "https://img.ltwebstatic.com/images3_pi/2021/01/28/161179758498563c65feebfe17c753a042c6410c3c_thumbnail_405x552.webp"
+        },
+    ];
+
+    /////////Element creation///////////////////////
+
+    ///var jaiparent=document.getElementById("jaiparent");
+    var parent1 = document.getElementById("jaiparent1");
+    var left = document.getElementById("jaileft");
+    var right = document.getElementById("jairight");
+
+function showProduct(){
+      right.innerHTML=null;
+
+
+      data.forEach(function (product) {
+        let div1 = document.createElement("div")
+        let img = document.createElement("img")
+        let name1 = document.createElement("p")
+        let price1 = document.createElement("h4")
+        let button_cart = document.createElement("button")
+
+        div1.style.maxHeight="350px";
+        div1.style.marginBottom="80px";
+        button_cart.textContent = "Add to Bag";
+        img.onclick = function () {
+            addToProduct(product);
+         window.location.href= "ProductDetails.html"
+        }
+
+        button_cart.onclick = function () {
+            addToCart(product);
+        };
+
+        ////source////////////////
+        img.src = product.image;
+        name1.textContent = product.name;
+        price1.textContent = product.price;
+
+
+
+        div1.append(img, button_cart, name1, price1);
+        right.append(div1);
+
+    });
+};
+showProduct();
+
+
+    ////////////////////////localStorage//////////////////////////////////
+
+    if (localStorage.getItem("Cart") === null) {
+        localStorage.setItem("Cart", JSON.stringify([]));
+    }
+
+    function addToCart(product) {
+        var arr = JSON.parse(localStorage.getItem("Cart"));
+        arr.push(product);
+        localStorage.setItem("Cart", JSON.stringify(arr));
+    }
+
+    function addToProduct(product) {
+       localStorage.setItem("element", JSON.stringify([]));
+       var arr1 = JSON.parse(localStorage.getItem("element"));
+       arr1.push(product);
+      localStorage.setItem("element", JSON.stringify(arr1));
+      };
+
+      
+
+</script>
