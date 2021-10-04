@@ -86,7 +86,9 @@ It is used to add logical functionalities to the web pages like the on Click fun
 
  ![](https://lh3.googleusercontent.com/-rTEZ9YuAKPg/YVmKFesWRHI/AAAAAAAAV7g/6BKxkR4KehEuDSF9QeWkVRxg3c1gPX6LwCLcBGAsYHQ/Screenshot%2B%252839%2529.png)
 
- First we check the functionality and layout of the page the we orgnize the <br> work with the team members. We was carefull about all the thinks which is in the website.
+ First we checked the functionality of the entire web page and checked its design and layout.
+After that we divided the work amongst ourselves, how much work has to be done by whom.
+Everyone started their work showing their consent and on the first day our home page was ready.
 
 
  - ## <span style="color:blue"> Product page </span>
@@ -102,23 +104,16 @@ It is used to add logical functionalities to the web pages like the on Click fun
 
 
  <br>
- We check the all functionality and layout of the products page <br>
-
- we added shor functions fonts size colors as same as in <br> original 
-
- website. after that we puted all the data in local storage. so we can <br>
-
- access the data as well.
+After the home page we created the product page and we did as much functionality as we could.
+We have given a filter named Price in this so that the customer does not face any problem in buying the product according to his choice.
+We also worked on this page too much color layout font lead and the beauty of the page.
 
  - ## <span style="color:blue"> Cart Page</span>
 
  ![](https://lh3.googleusercontent.com/-NZ1DL1csD-U/YVmKCB3Cr_I/AAAAAAAAV7Y/DUH0sylFlhsDzPekIivCai7dpj_dEh1iACLcBGAsYHQ/Screenshot%2B%252841%2529.png)
 
 
- After that we take all the data from the local storage and <br>
- dynamicaly put the all the data here! <br>
-
- Also we take care abot font size color and sixes.
+After this, the data key was taken from the local storage and the cart page was created from the same data so that the customer could get the right product. what he liked.
  <hr>
  <br>
 
@@ -126,7 +121,8 @@ It is used to add logical functionalities to the web pages like the on Click fun
 
  ![](https://miro.medium.com/max/3840/1*ed8jqTUv177tX70eByJnuQ.png)
 
- Here We have added display the product thah user had added to his/her cart
+This was the page of more information about the product, in this we have explained about the product in detail. and inside it. customer can also increase or decrease the count of the product.
+We took all the data from the local store of the cart page and pushed it here so that the customer can get the right product.
 
  
 
@@ -135,32 +131,27 @@ It is used to add logical functionalities to the web pages like the on Click fun
 
 ![](https://lh3.googleusercontent.com/--BkjcRSsKoI/YVmKAlvNsPI/AAAAAAAAV7U/GQpBnjnh3OsrsDlr7MX52Iu1wqfI_IXCACLcBGAsYHQ/Screenshot%2B%252842%2529.png)
 
-As we are building the webpage step by step so at the time of <br>
-cart we put attached the login page here, we was very care full about it<br>
-so we take care about the data and work for functionality. without the <br>
-correct login anyone can't access the Next page.
+We all know that the login page is the only page from which the customer’s penalty can be known.
+It was a security issue so here we have used email validation password validations so that no fake person can access the page.
+If you want to go to the next page, then you have to give your correct punishment, first you have to create an account, after that you will also have to login from the same id.
 
  - ## <span style="color:blue"> Address Page </span>
 
  ![](https://lh3.googleusercontent.com/-NyZAEEZXOE4/YVmQ_SvFECI/AAAAAAAAV78/PQKq0bT9dhs7I8aOSQwWomTF7VlVndV1wCLcBGAsYHQ/image.png)
 
- So we all know anyone can't get the dilevery withou the address. <br>
-
- so we created this page for collect the data of it. and put it on the local storage.
-
+ So we all know anyone can’t get the delivery withou the address.
+so we created this page for collect the data of it. and put it on the local storage.
  - ## <span style="color:blue"> Payment Page </span>
 
  ![](https://lh3.googleusercontent.com/-ma7wbTd3eNA/YVmJ-7qb5_I/AAAAAAAAV7Q/kylOqY_apKUtmxfOmHM3nadjh9OA75xyQCLcBGAsYHQ/Screenshot%2B%252843%2529.png)
 
 
 
- Here is the our payment page. we put the more affort here in functionality <br>
-
- so anyone can't make the fake payment. we put here the OTP system. 
- if you are entering the mobile number so you will get the OTP.
- <br>
- And if your are flling any wron information the it will so you the failed <br>
- Warning.
+There was a lot of work done on the payment page so that no one could make fake payments. First of all to make dummy payment to you. 16 digit card number to be entered.
+After this you have to enter the 3 digit Kava number. And also you have to enter the expiry card of the card.
+And then you will see the option to enter the mobile number, after which you will get a gate one time password.
+You will have to enter the password in the same evening or else you will not be able to make the payment.
+Once the payment is done, you will be shown the next page, that will be the success page.
 
 ![](https://lh3.googleusercontent.com/-lYmRDGI1R2w/YVmdEnvKlmI/AAAAAAAAV8w/Dg3E0piNMrwdgcwBur56WIXOPtq_g1ZiwCLcBGAsYHQ/Screenshot%2B%252846%2529.png)
 
