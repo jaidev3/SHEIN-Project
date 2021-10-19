@@ -12,40 +12,6 @@ Hello Bloggers. Firstly I welcome you to the My First Blog with First Construct 
 
 - We used Html5,CSS,Java Script and local-storage for building this Project <br> .We also used tools like GitHub for collaboration of our project, <br> Slack & Zoom as means of a communication channel.
 
-# <span style="color:red"> Team Members: </span>
-
-- # SURYA (FW12_284)
-  ![](https://1.bp.blogspot.com/-LY-OxkFfV2Y/XrhBS6NJTtI/AAAAAAAAOUE/nIlkPB0zgd8J3GjbkjAytu_rBeuSOCQzwCLcBGAsYHQ/s1600/83977760_482331609338910_4857945596205465600_o.jpg)
-
-[Twitter](www.twitter.com/spyadavg)
-
-[Linkedin](https://www.linkedin.com/in/surya-p-924b311a1/)
-
-- # JAIDEV (FW12_022)
-
-![](https://lh3.googleusercontent.com/-sSheHClLwJM/YVmUZ7ZoUiI/AAAAAAAAV8I/6uu-sKYFntUu0ZCTy1TK25419xbk9XDhQCLcBGAsYHQ/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.21.32.jpeg)
-
-[Linkedin](https://www.linkedin.com/in/jaidev-yadav-558691183)
-
-[Twitter](www.twitter.com/Jai61480675)
-
-[Medium](https://medium.com/@jaidevyadav720/9187fc0a2915)
-
-- # RANJAN (FW12_053)
-
-![](https://lh3.googleusercontent.com/-ncYORshjO8Q/YVmW_8-nWTI/AAAAAAAAV8o/frlk2wvUCV8A7rT5AL7VWqZIbDqQ98TUQCLcBGAsYHQ/w945-h600-p-k-no-nu/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.20.15.jpeg)
-
-[Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
-
-[Twitter](twitter.com/Ranjank87465651)
-
-- VISHNU (FW12_015)
-
-![](https://lh3.googleusercontent.com/-aRD1voy0zrc/YVmUYL5fM-I/AAAAAAAAV8E/rcpq9P4SEfcGNWaVv8r2FP9iFDy0GWFJACLcBGAsYHQ/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.28.41.jpeg)
-
-[Linkedin](https://www.linkedin.com/in/vishnu-nair-81a678193)
-
-[Twitter](https://mobile.twitter.com/nVishnu1963)
 
 # <span style="color:red"> Details of Tech stack used: </span>
 
@@ -145,3 +111,42 @@ So here is the finale page. after all the proccess You will get <br> the final p
  <br>
 
 # <span style="color:red"> Thank Your For Reading </span>
+
+
+
+# <span style="color:red"> Team Members: </span>
+
+- # SURYA (FW12_284)
+<img src="https://1.bp.blogspot.com/-LY-OxkFfV2Y/XrhBS6NJTtI/AAAAAAAAOUE/nIlkPB0zgd8J3GjbkjAytu_rBeuSOCQzwCLcBGAsYHQ/s1600/83977760_482331609338910_4857945596205465600_o.jpg" alt="drawing" style="width:200px;"/>
+
+  ![](https://1.bp.blogspot.com/-LY-OxkFfV2Y/XrhBS6NJTtI/AAAAAAAAOUE/nIlkPB0zgd8J3GjbkjAytu_rBeuSOCQzwCLcBGAsYHQ/s1600/83977760_482331609338910_4857945596205465600_o.jpg)
+
+[Twitter](www.twitter.com/spyadavg)
+
+[Linkedin](https://www.linkedin.com/in/surya-p-924b311a1/)
+
+- # JAIDEV (FW12_022)
+
+![](https://lh3.googleusercontent.com/-sSheHClLwJM/YVmUZ7ZoUiI/AAAAAAAAV8I/6uu-sKYFntUu0ZCTy1TK25419xbk9XDhQCLcBGAsYHQ/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.21.32.jpeg)
+
+[Linkedin](https://www.linkedin.com/in/jaidev-yadav-558691183)
+
+[Twitter](www.twitter.com/Jai61480675)
+
+[Medium](https://medium.com/@jaidevyadav720/9187fc0a2915)
+
+- # RANJAN (FW12_053)
+
+![](https://lh3.googleusercontent.com/-ncYORshjO8Q/YVmW_8-nWTI/AAAAAAAAV8o/frlk2wvUCV8A7rT5AL7VWqZIbDqQ98TUQCLcBGAsYHQ/w945-h600-p-k-no-nu/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.20.15.jpeg)
+
+[Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
+
+[Twitter](twitter.com/Ranjank87465651)
+
+- VISHNU (FW12_015)
+
+![](https://lh3.googleusercontent.com/-aRD1voy0zrc/YVmUYL5fM-I/AAAAAAAAV8E/rcpq9P4SEfcGNWaVv8r2FP9iFDy0GWFJACLcBGAsYHQ/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.28.41.jpeg)
+
+[Linkedin](https://www.linkedin.com/in/vishnu-nair-81a678193)
+
+[Twitter](https://mobile.twitter.com/nVishnu1963)
