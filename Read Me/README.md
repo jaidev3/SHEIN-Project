@@ -147,7 +147,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium](https://medium.com/@jaidevyadav720/9187fc0a2915)
 
 - # RANJAN (FW12_053)
-<img src="https://lh3.googleusercontent.com/-ncYORshjO8Q/YVmW_8-nWTI/AAAAAAAAV8o/frlk2wvUCV8A7rT5AL7VWqZIbDqQ98TUQCLcBGAsYHQ/w945-h600-p-k-no-nu/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.20.15.jpeg" alt="drawing" style="width:200px;"/>
+<img src="https://lh3.googleusercontent.com/-ncYORshjO8Q/YVmW_8-nWTI/AAAAAAAAV8o/frlk2wvUCV8A7rT5AL7VWqZIbDqQ98TUQCLcBGAsYHQ/w945-h600-p-k-no-nu/WhatsApp%2BImage%2B2021-10-03%2Bat%2B16.20.15.jpeg" alt="drawing" style="width:200px; "/>
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
 
