@@ -2,20 +2,21 @@
 
 # <span style="color:red"> Welcome Here!</span>
 
-Hello Bloggers. Firstly I welcome you to the My First Blog with First Construct Week Project of Masai School. <br> In this Blog I am going to share our journey and our learning experiences In this <br> First Construct week project. This Project is our First construct week project an we give a name to our project called SHEIN Preoject. <br> I hope you will the enjoy reading….
+Hello Readers,<br>
+Firstly we are welcoming you to the our First group project in our 1st Construct Week of Masai School. <br>Here we are going to share our journey and our learning experiences In this First Construct week project.<br> This Project is our First construct week project an we give a name to our project called SHEIN Preoject. <br> I hope you will enjoy the reading….
 
 # <span style="color:red"> About Website: </span>
 
-- [SHEIN](Shein.com) is E commerce website which sells ready-made clothes products online. <br> Through this website we can order any clothes of men and women are available in the website.
+- [SHEIN](Shein.com) is an international B2C fast fashion e-commerce company. The company mainly focuses on women's wear, but it also offers men's apparel, children's clothes, accessories, shoes, bags and other fashion items. SHEIN mainly targets Europe, America, Australia, and the Middle East along with other consumer markets. The brand was founded in October 2008, and since then it has upheld the philosophy that "everyone can enjoy the beauty of fashion." Its business covers more than 220 countries and regions around the world.
 
 # <span style="color:red"> Tech Stack Used: </span>
 
-- We used Html5,CSS,Java Script and local-storage for building this Project <br> .We also used tools like GitHub for collaboration of our project, <br> Slack & Zoom as means of a communication channel.
+- We used Html5,CSS,JavaScript and local-storage for building this Project. <br> We also used tools like GitHub for collaboration of our project,Slack & Zoom as means of a communication channel.
 
 
 # <span style="color:red"> Details of Tech stack used: </span>
 
-## HTML5:
+HTML5:
 
 It is used to build the basic structure of the website. All headings, Paragraphs, links, forms, etc. were structured by HTML.
 
