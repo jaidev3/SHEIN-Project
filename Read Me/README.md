@@ -11,7 +11,7 @@ Firstly we are welcoming you to the our First group project in our 1st Construct
 
 # <span style="color:red"> Tech Stack Used: </span>
 
-- We used Html5,CSS,JavaScript and local-storage for building this Project. <br> We also used tools like GitHub for collaboration of our project,Slack & Zoom as means of a communication channel.
+- We used Html5,CSS,JavaScript and local-storage for building this Project. We also used tools like GitHub for collaboration of our project,Slack & Zoom as means of a communication channel.
 
 
 # <span style="color:red"> Details of Tech stack used: </span>
@@ -20,19 +20,19 @@ HTML5:
 
 It is used to build the basic structure of the website. All headings, Paragraphs, links, forms, etc. were structured by HTML.
 
-## CSS:
+ CSS:
 
 It is used to add styling to the website. We used Advance CSS for Popup Modal window for login/Sign up, Payment, and all other styling.
 
-## JavaScript:
+ JavaScript:
 
 It is used to add logical functionalities to the web pages like the on Click function. We have added all the functionalities.
 
-## Local storage:
+ Local storage:
 
 We used local-storage as a database for storing users’ data, products details, and cart details.
 
-## Experience of team:
+ Experience of team:
 
 Let me Share my experience, First i would like to thank my team for being supportive and responsive every time whenever I needed any suggestions. I Enjoyed our construct week journey, with great learning of new things while building project. I worked on front page,product page and merge all the code received from my team mates.
 
