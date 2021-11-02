@@ -75,7 +75,7 @@ C1vishnuCartArr.forEach(function (p) {
   C1secondTop.style.fontSize = "14px";
   C1secondTop.style.fontWeight = "500";
 
-  C1secondTop.onmouseover = function () {
+  C1secondTop.onmousehover = function () {
     C1secondTop.style.fontSize = "15px";
     C1secondTop.style.fontWeight = "700";
   };
