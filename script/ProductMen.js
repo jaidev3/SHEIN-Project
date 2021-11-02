@@ -572,31 +572,36 @@ let data = [
   {
     name: "SHEIN Men Geo Print Shirt",
     price: "980",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/09/06/163089114277131b1e549b130619aae6eeeb15d2a8_thumbnail_900x.webp",
   },
 
   {
     name: "SHEIN Men Floral Embroidery Sheer Mesh Shirt",
-    price: "1200",
+    price: "120",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/09/06/16308912973c567d8b7babfde1237fddd635413c7f_thumbnail_900x.webp",
   },
   {
     name: "Men Plaid Slant Pocket PJ Set",
     price: "2000",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/08/09/1628478723aa39431759a7ca94d5e5b4dd84332937_thumbnail_900x.webp",
   },
   {
     name: "Men Contrast Panel Topstitching Shirt",
     price: "1250",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2019/09/27/1569571052b04cb2dd11ecd58f0c5f4d2ef4635f06_thumbnail_900x.webp",
   },
   {
     name: "SHEIN Men Geo Print Shirt",
     price: "980",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/08/17/16291855517a5b34a6476a3ffedd26c8c6569f2d8d_thumbnail_900x.webp",
   },
@@ -604,12 +609,14 @@ let data = [
   {
     name: "SHEIN Men Striped Patched Detail Tee",
     price: "750",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2021/07/30/16276489837dd2c777613922bd9715dec5e45ee7b9_thumbnail_900x.webp",
   },
   {
     name: "Men Stand Neck Button Up Shirt",
     price: "1800",
+    price1: "980",
     image:
       "https://img.ltwebstatic.com/images3_pi/2020/11/25/16062670368404cbe1beacd34657c120ed1afb2dfa_thumbnail_900x.webp",
   },
@@ -792,7 +799,7 @@ function showProduct() {
     let div1 = document.createElement("div");
     let img = document.createElement("img");
     let name1 = document.createElement("p");
-    let price1 = document.createElement("h4");
+    let price = document.createElement("h4");
     let button_cart = document.createElement("button");
 
     div1.style.maxHeight = "350px";
@@ -810,9 +817,9 @@ function showProduct() {
     ////source////////////////
     img.src = product.image;
     name1.textContent = product.name;
-    price1.textContent = product.price;
+    price.textContent = product.price;
 
-    div1.append(img, button_cart, name1, price1);
+    div1.append(img, button_cart, name1, price);
     right.append(div1);
   });
 }

@@ -94,7 +94,7 @@ C1vishnuCartArr.forEach(function (p) {
   var C1secondMidPrice = document.createElement("div");
   // secondMidPrice.style.border='1px solid red'
   C1secondMidPrice.style.width = "20%";
-  var C1price = p.price1; /*<<Put Price here*/
+  var C1price = p.price; /*<<Put Price here*/
   C1secondMidPrice.textContent = "US$" + C1price;
   C1secondMidPrice.style.fontFamily = "Arial, Helvetica, sans-serif";
   C1secondMidPrice.style.fontSize = "16px";
