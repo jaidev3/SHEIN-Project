@@ -147,7 +147,8 @@ We are very thankful for the support of my teammates and instructor for the comp
 [Medium](https://medium.com/@jaidevyadav720/9187fc0a2915)
 
 - # RANJAN (FW12_053)
-![Profilepic-githhub _1](https://user-images.githubusercontent.com/91541289/141667902-4211aa5d-da40-4313-a452-34dfc720b51d.png)
+![Profilepic (2)](https://user-images.githubusercontent.com/91541289/141667956-00ab89fd-6179-4f9c-bea4-4a2f23c72122.png)
+)
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
 
