@@ -148,7 +148,7 @@ We are very thankful for the support of my teammates and instructor for the comp
 
 - # RANJAN (FW12_053)
 ![Profilepic (2)](https://user-images.githubusercontent.com/91541289/141667956-00ab89fd-6179-4f9c-bea4-4a2f23c72122.png)
-)
+
 
 [Linkedin](www.linkedin.com/in/ranjan-kumar-thakur-47a65662)
 
